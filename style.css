@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+p{
+    font-size: 14px;
+}
+body{
+    margin: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: end;
+    margin: 20px 0;
+}
+nav ul li{
+    text-decoration: none;
+    display: inline;
+    padding: 10px;
+    font-size: 18px;
+    
+}
+nav ul li:hover{
+   background-color: #4B9CD3;
+   color: white;
+}
+a{
+    text-decoration: none;
+}
+
+img{
+    height: 300px;
+    width: auto;
+    object-fit: cover;
+}
+#hospital{
+    background-color: #1ca9c9;
+    color:white;
+    text-align: center;
+    padding: 10px;
+    align-items: end;
+    margin-bottom: 20px;
+}
+
+.our-team-sec{
+    display: flex;
+    flex-flow: row;
+}
+
+h1{
+    margin-bottom: 12px;
+}
+table tr,
+th,
+td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+table th {
+    background-color: #E1EBEE;
+}
+
+#total-patient {
+    text-align: right;
+}
+
+div.form {
+    display: block;
+    text-align: center;
+}
+
+section{
+    margin-bottom: 18px;
+}
+h3 {
+    text-align: center;
+}
+
+#main-div {
+    background-color: #E1EBEE;
+    padding: 20px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+}
+
+input,
+textarea,
+select {
+    border-radius: 5px;
+}
+
+.check {
+    display: block;
+    /* Each checkbox on a new line */
+    margin-left: 160px;
+    /* Align checkboxes under the label */
+    margin-bottom: 5px;
+    /* Space between checkboxes */
+}
+
+select {
+    width: 200px;
+}
+
+form>div {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 5px 8px;
+    background-color: green;
+    color: white;
+    border-radius: 4px;
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Hospital Management System</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        #hospital{
+            background-color: red;
+            color:white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        img{
+            width: 800px;
+            height: 300px;
+        }
+
+        table tr,th,td{
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        table th{
+            background-color: tan;
+        }
+        #total-patient{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="hospital">Hospital Management System</h1>
+    <p>Lorem Ipsum is simply dummy text of the printing 
+        and typesetting industry. 
+    </p>
+    <!-- <img src="image/Hospital-Management-System-05.png" alt="This is a wallpaper." /> -->
+
+    <table>
+        <thead>
+            <th>Sr No</th>
+            <th>Name</th>
+            <th>Gender</th>
+            <th>Email</th>
+            <th>Education</th>
+            <th>Mobile</th>
+            <th>No of patients</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Manisha Chaudhary</td>
+                <td>Female</td>
+                <td>manisha@gmail.com</td>
+                <td>MBBS</td>
+                <td>1234561234</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Manisha Gaikwad</td>
+                <td>Female</td>
+                <td>manishagk@gmail.com</td>
+                <td>MD</td>
+                <td>1234561234</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Radhika</td>
+                <td>Female</td>
+                <td>radhika@gmail.com</td>
+                <td>MBBS</td>
+                <td>2345234523</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Rashmi</td>
+                <td>Female</td>
+                <td>rashmi@gmail.com</td>
+                <td>MBBS</td>
+                <td>5656565656</td>
+                <td>3</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td colspan="6" id="total-patient">Total Patients</td>
+            <td>25</td>
+        </tfoot>
+    </table>
+
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="3">Day</th>
+                <th colspan="3">Seminar</th>
+            </tr>
+            <tr>
+                <th colspan="2">Schedule</th>
+                <th rowspan="2">Topic</th>
+            </tr> 
+            <tr>
+                <th>Begin</th>
+                <th>End</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Monday</td>
+                <td rowspan="2">8:00 a.m.</td>
+                <td rowspan="2">5:00 a.m.</td>
+                <td>Introduction to XML</td>
+                <tr>
+                    <td>Validity:DTD and Relax NG</td>
+                </tr>
+            </tr>
+            <tr>
+                <td rowspan="4">Tuesday</td>
+                <tr>
+                    <td>8:00 a.m.</td>
+                    <td>11:00 a.m.</td>
+                    <td rowspan="1">XPath</td>
+                </tr>
+                <tr>
+                    <td>11:00 a.m.</td>
+                    <td>2:00 p.m.</td>
+                    <td rowspan="2">XLS Transformation</td>
+                </tr>
+                <tr>
+                    <td>2:00 p.m.</td>
+                    <td>5:00 p.m.</td>
+                </tr>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>8:00 a.m.</td>
+                <td>12:00 p.m.</td>
+                <td>XSL Formatting Objects</td>
+            </tr>
+            
+        </tbody>
+        
+    </table>
+</body>
+</html>
