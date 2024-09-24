@@ -9,7 +9,10 @@ p{
 body{
     margin: 20px;
 }
-
+.home-body-cl{
+    background-image: url('../image/background-img.jpg');
+    background-repeat: no-repeat;
+}
 nav{
     display: flex;
     justify-content: end;
