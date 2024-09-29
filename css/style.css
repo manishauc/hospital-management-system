@@ -12,11 +12,15 @@ body{
 .home-body-cl{
     background-image: url('../image/background-img.jpg');
     background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    background-position: center;
 }
 nav{
     display: flex;
     justify-content: end;
     margin: 20px 0;
+   
 }
 nav ul li{
     text-decoration: none;
